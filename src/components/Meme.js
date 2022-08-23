@@ -20,7 +20,9 @@ function Meme() {
         const url = allMemes[randomNumber].url
         setMeme(prevState => ({
             ...prevState,
-            randomImage: url
+            randomImage: url,
+            topText: "",
+            bottomText: ""
         }))
     }
 
